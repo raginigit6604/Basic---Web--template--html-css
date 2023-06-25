@@ -27,7 +27,7 @@
 .logo img{
     height: 40px;
     padding-top: 5px;
-    padding-left: 5px;
+    padding-left: 350px;
 }
 .menu{
     width: 70%;
@@ -121,7 +121,7 @@
 #row4{
     height: 630px;
     width: 100%;
-    background: #f5a6a6;
+    background: #eae6e6;
 }
 .project_section{
     width: 65%;
@@ -150,15 +150,66 @@
 /*Row-4 CSS end */
 
 /*Row-5 CSS Start */
-#row5{}
-.youget section{}
-.youget title{}
-.youget title h2{}
-.youget item all{}
-.youget item {}
-.youget item i{}
-.youget item h4{}
-.youget item p{}
+#row5{
+    height: 450px;
+    width: 100vw;
+    background-color: rgba(237,146, 91,0.5);
+    background-image: url('https://th.bing.com/th/id/OIP.55U-8PJe_zHnA7d7grEveQHaGO?pid=ImgDet&rs=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(251,160,105,0.9);
+    position: absolute;
+}
+.youget_section{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+    color: #fff;
+    position: absolute;
+}
+.youget_title{}
+.youget_title h2{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.youget_item_all{
+    width: 65%;
+    margin: 0 auto;
+}
+.youget_item {
+    width: 29%;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+}
+.youget_item i{
+    font-size: 18px;
+    background: #fff;
+    color: #ED9B69;
+    height:50px;
+    width: 50px;
+    border-radius: 100%;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.youget_item h4{
+    font-size: 30px;
+    padding-bottom: 14px;
+}
+.youget_item p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
+}
 /*Row-5 CSS end */
 
 /*Row-6 CSS Start */
